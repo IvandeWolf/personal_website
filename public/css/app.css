@@ -1,0 +1,149 @@
+html,
+body {
+  background-color: #fff;
+  color: #636b6f;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  height: 100vh;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+.full-height {
+  height: 100vh;
+}
+
+.flex-center {
+  -webkit-box-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+}
+
+.position-ref {
+  position: relative;
+}
+
+.top-right {
+  position: absolute;
+  right: 10px;
+  top: 18px;
+}
+
+.content {
+  text-align: center;
+}
+
+.title {
+  font-size: 96px;
+  margin-bottom: -16px;
+}
+
+.links {
+  margin-bottom: 48px;
+}
+
+.links > a {
+  color: #3a4042;
+  padding: 0 25px;
+  font-size: 13px;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  border-right: 1px solid #3a4042;
+}
+
+.links > a:last-child {
+  border-right: none;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.position {
+  font-weight: 300;
+  color: #c70000;
+  margin-bottom: 4px;
+  font-size: 18px;
+}
+
+.address {
+  font-weight: 300;
+  font-style: italic;
+  font-size: 20px;
+  color: gray;
+  margin-bottom: 18px;
+}
+
+.quote {
+  font-weight: 100;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.see_more {
+  margin-top: 100px;
+  font-size: 48px;
+}
+
+.section {
+  width: 50%;
+  text-align: left;
+  margin-top: 24px;
+}
+
+.section .section_title {
+  font-weight: 700;
+  font-size: 32px;
+  display: -webkit-box;
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.section .section_title span {
+  color: #c70000;
+}
+
+.section .section_title .section_title--bar {
+  content: "";
+  border-bottom: 2px solid #3a4042;
+  -webkit-box-flex: 1;
+          flex-grow: 1;
+}
+
+.section .item .item_title {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.section .item .item_title .location {
+  float: right;
+  color: #c70000;
+  font-style: italic;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.section .item .item_subtitle {
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.section .item .item_subtitle .datetime {
+  float: right;
+  color: gray;
+  font-style: italic;
+  font-size: 15px;
+}
+
+.section .item ul {
+  margin: 12px 0 16px;
+  clear: both;
+}
+
