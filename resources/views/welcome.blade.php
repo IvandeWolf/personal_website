@@ -67,7 +67,7 @@
             </div>
         </div>
 
-        <div class="flex-center position-ref" style="background-color: light-grey;">
+        <div class="flex-center position-ref margin-bottom" style="background-color: light-grey;">
             <div class="section">
                 <div class="section_title">
                     <span>Edu</span>cation<div class="section_title--bar"></div>
@@ -94,10 +94,15 @@
 
                 <div class="item">
                     <div class="item_header">
-                        <div class="item_title">Hogeschool van Arnhem en Nijmegen</div>
-                        <div class="item_subtitle">HBO-ICT</div>
+                        <div class="item_title">
+                            Hogeschool van Arnhem en Nijmegen
+                            <div class="location">Arnhem, The Netherlands</div>
+                        </div>
+                        <div class="item_subtitle">
+                            HBO-ICT
+                            <div class="datetime">sep. 2017 - aug. 2018</div>
+                        </div>
                     </div>
-                    <div class="datetime">sep. 2017 - aug. 2018</div>
 
                     <ul>
                         <li>Propedeuse achieved</li>

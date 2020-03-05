@@ -140,3 +140,87 @@ html, body {
     }
   }
 }
+
+.margin-bottom {
+  margin-bottom: 48px;
+}
+
+@media screen and (max-width: 1400px) {
+  .section {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .section .item .item_title {
+    font-size: 18px;
+  }
+  .section .item .item_subtitle {
+    font-size: 14px;
+  }
+
+  .section .item .item_title .location {
+    float: right;
+    font-size: 12px;
+  }
+  .section .item .item_subtitle .datetime {
+    font-size: 12px;
+  }
+
+  .section .item ul {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .section .item .item_title {
+    font-size: 14px;
+  }
+  .section .item .item_subtitle {
+    font-size: 11px;
+  }
+
+  .section .item .item_title .location {
+    float: right;
+    font-size: 11px;
+  }
+  .section .item .item_subtitle .datetime {
+    font-size: 11px;
+  }
+
+  .section .item ul {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .section .item .item_title {
+    font-size: 14px;
+  }
+  .section .item .item_subtitle {
+    font-size: 11px;
+  }
+
+  .section .item .item_title .location {
+    display: none;
+  }
+  .section .item .item_subtitle .datetime {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .title {
+    font-size: 64px;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column;
+  }
+  .links > a {
+    font-size: 13px;
+    margin-bottom: 4px;
+    border-right: none;
+  }
+}
